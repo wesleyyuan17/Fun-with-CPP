@@ -1,5 +1,6 @@
-CXX = g++
+#CXX = g++
 #CXXFLAGS = -Wall -g
+CXX = clang++
 
 ProdInv: ProdInv.o product.o inventory.o
 	$(CXX) -o ProdInv ProdInv.o product.o inventory.o
