@@ -12,6 +12,18 @@ class Limit {
 
     public:
         Limit(int limitPrice, int volume);
+        
+        void setParent(Limit *parent);
+        void setLeftChild(Limit *child);
+        void setRightChild(Limit *child);
+        void setHeadOrder(Order *order);
+        void setTailOrder(Order *order);
+
+        Limit * getParent();
+        Limit * getLeftChild();
+        Limit * getRightChild();
+        Order * getHeadOrder();
+        Order * getTailOrder();
 
         int limitPrice;
         int size;
