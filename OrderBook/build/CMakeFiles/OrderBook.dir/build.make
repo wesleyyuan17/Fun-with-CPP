@@ -76,75 +76,30 @@ include CMakeFiles/OrderBook.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/OrderBook.dir/flags.make
 
-CMakeFiles/OrderBook.dir/src/book.cpp.o: CMakeFiles/OrderBook.dir/flags.make
-CMakeFiles/OrderBook.dir/src/book.cpp.o: ../src/book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OrderBook.dir/src/book.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrderBook.dir/src/book.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/book.cpp"
+CMakeFiles/OrderBook.dir/main.cpp.o: CMakeFiles/OrderBook.dir/flags.make
+CMakeFiles/OrderBook.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OrderBook.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrderBook.dir/main.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/main.cpp"
 
-CMakeFiles/OrderBook.dir/src/book.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderBook.dir/src/book.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/book.cpp" > CMakeFiles/OrderBook.dir/src/book.cpp.i
+CMakeFiles/OrderBook.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderBook.dir/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/main.cpp" > CMakeFiles/OrderBook.dir/main.cpp.i
 
-CMakeFiles/OrderBook.dir/src/book.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderBook.dir/src/book.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/book.cpp" -o CMakeFiles/OrderBook.dir/src/book.cpp.s
-
-CMakeFiles/OrderBook.dir/src/limit.cpp.o: CMakeFiles/OrderBook.dir/flags.make
-CMakeFiles/OrderBook.dir/src/limit.cpp.o: ../src/limit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/OrderBook.dir/src/limit.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrderBook.dir/src/limit.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/limit.cpp"
-
-CMakeFiles/OrderBook.dir/src/limit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderBook.dir/src/limit.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/limit.cpp" > CMakeFiles/OrderBook.dir/src/limit.cpp.i
-
-CMakeFiles/OrderBook.dir/src/limit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderBook.dir/src/limit.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/limit.cpp" -o CMakeFiles/OrderBook.dir/src/limit.cpp.s
-
-CMakeFiles/OrderBook.dir/src/main.cpp.o: CMakeFiles/OrderBook.dir/flags.make
-CMakeFiles/OrderBook.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/OrderBook.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrderBook.dir/src/main.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/main.cpp"
-
-CMakeFiles/OrderBook.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderBook.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/main.cpp" > CMakeFiles/OrderBook.dir/src/main.cpp.i
-
-CMakeFiles/OrderBook.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderBook.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/main.cpp" -o CMakeFiles/OrderBook.dir/src/main.cpp.s
-
-CMakeFiles/OrderBook.dir/src/order.cpp.o: CMakeFiles/OrderBook.dir/flags.make
-CMakeFiles/OrderBook.dir/src/order.cpp.o: ../src/order.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OrderBook.dir/src/order.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OrderBook.dir/src/order.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/order.cpp"
-
-CMakeFiles/OrderBook.dir/src/order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OrderBook.dir/src/order.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/order.cpp" > CMakeFiles/OrderBook.dir/src/order.cpp.i
-
-CMakeFiles/OrderBook.dir/src/order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderBook.dir/src/order.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/order.cpp" -o CMakeFiles/OrderBook.dir/src/order.cpp.s
+CMakeFiles/OrderBook.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OrderBook.dir/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/main.cpp" -o CMakeFiles/OrderBook.dir/main.cpp.s
 
 # Object files for target OrderBook
 OrderBook_OBJECTS = \
-"CMakeFiles/OrderBook.dir/src/book.cpp.o" \
-"CMakeFiles/OrderBook.dir/src/limit.cpp.o" \
-"CMakeFiles/OrderBook.dir/src/main.cpp.o" \
-"CMakeFiles/OrderBook.dir/src/order.cpp.o"
+"CMakeFiles/OrderBook.dir/main.cpp.o"
 
 # External object files for target OrderBook
 OrderBook_EXTERNAL_OBJECTS =
 
-OrderBook: CMakeFiles/OrderBook.dir/src/book.cpp.o
-OrderBook: CMakeFiles/OrderBook.dir/src/limit.cpp.o
-OrderBook: CMakeFiles/OrderBook.dir/src/main.cpp.o
-OrderBook: CMakeFiles/OrderBook.dir/src/order.cpp.o
+OrderBook: CMakeFiles/OrderBook.dir/main.cpp.o
 OrderBook: CMakeFiles/OrderBook.dir/build.make
 OrderBook: CMakeFiles/OrderBook.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable OrderBook"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OrderBook"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OrderBook.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,5 @@
+add_test( [==[simple test]==] [==[/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/tests]==] [==[simple test]==]  )
+set_tests_properties( [==[simple test]==] PROPERTIES WORKING_DIRECTORY [==[/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build]==])
+add_test( [==[first test]==] [==[/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/tests]==] [==[first test]==]  )
+set_tests_properties( [==[first test]==] PROPERTIES WORKING_DIRECTORY [==[/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build]==])
+set( tests_TESTS [==[simple test]==] [==[first test]==])

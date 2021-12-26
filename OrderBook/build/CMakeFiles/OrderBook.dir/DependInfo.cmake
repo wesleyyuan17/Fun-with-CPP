@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/book.cpp" "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles/OrderBook.dir/src/book.cpp.o"
-  "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/limit.cpp" "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles/OrderBook.dir/src/limit.cpp.o"
-  "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/main.cpp" "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles/OrderBook.dir/src/main.cpp.o"
-  "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/order.cpp" "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles/OrderBook.dir/src/order.cpp.o"
+  "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/main.cpp" "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles/OrderBook.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

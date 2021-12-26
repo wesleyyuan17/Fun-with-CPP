@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/lob.hpp
+
+/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/main.cpp
+lob.hpp
+/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/lob.hpp
+

@@ -1,5 +1,5 @@
 #pragma once
-#include "lob.h"
+#include "lob.hpp"
 
 Limit::Limit(int limitPrice, int size) : totalVolume(0) {
     // set instance variables

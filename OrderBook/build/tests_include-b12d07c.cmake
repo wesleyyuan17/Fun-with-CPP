@@ -1,0 +1,5 @@
+if(EXISTS "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/tests_tests-b12d07c.cmake")
+  include("/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/tests_tests-b12d07c.cmake")
+else()
+  add_test(tests_NOT_BUILT-b12d07c tests_NOT_BUILT-b12d07c)
+endif()
