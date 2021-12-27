@@ -692,6 +692,33 @@ tests/test_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_main.cpp.s
 .PHONY : tests/test_main.cpp.s
 
+tests/test_order.o: tests/test_order.cpp.o
+
+.PHONY : tests/test_order.o
+
+# target to build an object file
+tests/test_order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_order.cpp.o
+.PHONY : tests/test_order.cpp.o
+
+tests/test_order.i: tests/test_order.cpp.i
+
+.PHONY : tests/test_order.i
+
+# target to preprocess a source file
+tests/test_order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_order.cpp.i
+.PHONY : tests/test_order.cpp.i
+
+tests/test_order.s: tests/test_order.cpp.s
+
+.PHONY : tests/test_order.s
+
+# target to generate assembly for a file
+tests/test_order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/tests/test_order.cpp.s
+.PHONY : tests/test_order.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -749,6 +776,9 @@ help:
 	@echo "... tests/test_main.o"
 	@echo "... tests/test_main.i"
 	@echo "... tests/test_main.s"
+	@echo "... tests/test_order.o"
+	@echo "... tests/test_order.i"
+	@echo "... tests/test_order.s"
 .PHONY : help
 
 

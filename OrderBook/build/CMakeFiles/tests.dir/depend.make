@@ -6,6 +6,7 @@ CMakeFiles/tests.dir/src/book.cpp.o: ../src/book.cpp
 CMakeFiles/tests.dir/src/limit.cpp.o: ../include/lob.hpp
 CMakeFiles/tests.dir/src/limit.cpp.o: ../src/limit.cpp
 
+CMakeFiles/tests.dir/src/order.cpp.o: ../include/lob.hpp
 CMakeFiles/tests.dir/src/order.cpp.o: ../src/order.cpp
 
 CMakeFiles/tests.dir/tests/test_limit.cpp.o: ../include/lob.hpp
@@ -14,4 +15,8 @@ CMakeFiles/tests.dir/tests/test_limit.cpp.o: /usr/local/include/catch2/catch.hpp
 
 CMakeFiles/tests.dir/tests/test_main.cpp.o: ../tests/test_main.cpp
 CMakeFiles/tests.dir/tests/test_main.cpp.o: /usr/local/include/catch2/catch.hpp
+
+CMakeFiles/tests.dir/tests/test_order.cpp.o: ../include/lob.hpp
+CMakeFiles/tests.dir/tests/test_order.cpp.o: ../tests/test_order.cpp
+CMakeFiles/tests.dir/tests/test_order.cpp.o: /usr/local/include/catch2/catch.hpp
 

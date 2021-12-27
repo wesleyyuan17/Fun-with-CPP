@@ -7,6 +7,7 @@ CMakeFiles/tests.dir/src/limit.cpp.o
  ../include/lob.hpp
  /Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/limit.cpp
 CMakeFiles/tests.dir/src/order.cpp.o
+ ../include/lob.hpp
  /Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/order.cpp
 CMakeFiles/tests.dir/tests/test_limit.cpp.o
  ../include/lob.hpp
@@ -14,4 +15,8 @@ CMakeFiles/tests.dir/tests/test_limit.cpp.o
  /usr/local/include/catch2/catch.hpp
 CMakeFiles/tests.dir/tests/test_main.cpp.o
  /Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/tests/test_main.cpp
+ /usr/local/include/catch2/catch.hpp
+CMakeFiles/tests.dir/tests/test_order.cpp.o
+ ../include/lob.hpp
+ /Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/tests/test_order.cpp
  /usr/local/include/catch2/catch.hpp

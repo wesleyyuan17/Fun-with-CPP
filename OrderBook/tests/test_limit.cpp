@@ -2,13 +2,46 @@
 #include<iostream>
 #include "lob.hpp"
 
-TEST_CASE("simple test", "[classic]") {
-    std::cout << "simple test";
-    REQUIRE(1 == 1);
-}
+// Used to test Catch2 itself is working instead of bad linking
+// TEST_CASE("simple test", "[classic]") {
+//     std::cout << "simple test";
+//     REQUIRE(1 == 1);
+// }
 
-TEST_CASE("first test", "[limit]") {
-    Limit l = Limit(0, 1);
-    REQUIRE(l.limitPrice == 0);
+TEST_CASE("test limit implementation", "[limit]") {
+    // initialize limit object
+    Limit baseLimit = Limit(0, 1);
+    Limit helperLimit = Limit(0, 1);
+    Order helperOrder = Order(1, true, 5, 0);
+
+    SECTION("check initialization") {
+        // check intialization of member variables
+        REQUIRE(baseLimit.limitPrice == 0);
+        REQUIRE(baseLimit.size == 1);
+
+        // check initialization of pointers
+        REQUIRE_FALSE(baseLimit.getParent());
+        REQUIRE_FALSE(baseLimit.getLeftChild());
+        REQUIRE_FALSE(baseLimit.getRightChild());
+        REQUIRE_FALSE(baseLimit.getHeadOrder());
+        REQUIRE_FALSE(baseLimit.getTailOrder());
+    }
+
+    SECTION("check instance variable setting") {
+        baseLimit.setParent(&helperLimit);
+        REQUIRE(baseLimit.getParent() == &helperLimit);
+
+        baseLimit.setLeftChild(&helperLimit);
+        REQUIRE(baseLimit.getLeftChild() == &helperLimit);
+
+        baseLimit.setRightChild(&helperLimit);
+        REQUIRE(baseLimit.getRightChild() == &helperLimit);
+
+        baseLimit.setHeadOrder(&helperOrder);
+        REQUIRE(baseLimit.getHeadOrder() == &helperOrder);
+
+        baseLimit.setTailOrder(&helperOrder);
+        REQUIRE(baseLimit.getTailOrder() == &helperOrder);
+    }
 }
 

@@ -102,9 +102,22 @@ CMakeFiles/tests.dir/tests/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test_main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/tests/test_main.cpp" -o CMakeFiles/tests.dir/tests/test_main.cpp.s
 
+CMakeFiles/tests.dir/tests/test_order.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/tests/test_order.cpp.o: ../tests/test_order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/tests/test_order.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests/test_order.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/tests/test_order.cpp"
+
+CMakeFiles/tests.dir/tests/test_order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests/test_order.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/tests/test_order.cpp" > CMakeFiles/tests.dir/tests/test_order.cpp.i
+
+CMakeFiles/tests.dir/tests/test_order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests/test_order.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/tests/test_order.cpp" -o CMakeFiles/tests.dir/tests/test_order.cpp.s
+
 CMakeFiles/tests.dir/src/book.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/book.cpp.o: ../src/book.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/src/book.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/src/book.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/book.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/book.cpp"
 
 CMakeFiles/tests.dir/src/book.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/tests.dir/src/book.cpp.s: cmake_force
 
 CMakeFiles/tests.dir/src/limit.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/limit.cpp.o: ../src/limit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/src/limit.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/limit.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/limit.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/limit.cpp"
 
 CMakeFiles/tests.dir/src/limit.cpp.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/tests.dir/src/limit.cpp.s: cmake_force
 
 CMakeFiles/tests.dir/src/order.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/order.cpp.o: ../src/order.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/order.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/order.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/order.cpp.o -c "/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/src/order.cpp"
 
 CMakeFiles/tests.dir/src/order.cpp.i: cmake_force
@@ -145,6 +158,7 @@ CMakeFiles/tests.dir/src/order.cpp.s: cmake_force
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/tests/test_limit.cpp.o" \
 "CMakeFiles/tests.dir/tests/test_main.cpp.o" \
+"CMakeFiles/tests.dir/tests/test_order.cpp.o" \
 "CMakeFiles/tests.dir/src/book.cpp.o" \
 "CMakeFiles/tests.dir/src/limit.cpp.o" \
 "CMakeFiles/tests.dir/src/order.cpp.o"
@@ -154,12 +168,13 @@ tests_EXTERNAL_OBJECTS =
 
 tests: CMakeFiles/tests.dir/tests/test_limit.cpp.o
 tests: CMakeFiles/tests.dir/tests/test_main.cpp.o
+tests: CMakeFiles/tests.dir/tests/test_order.cpp.o
 tests: CMakeFiles/tests.dir/src/book.cpp.o
 tests: CMakeFiles/tests.dir/src/limit.cpp.o
 tests: CMakeFiles/tests.dir/src/order.cpp.o
 tests: CMakeFiles/tests.dir/build.make
 tests: CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 	/usr/local/Cellar/cmake/3.19.1/bin/cmake -D TEST_TARGET=tests -D "TEST_EXECUTABLE=/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/tests" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build" -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=tests_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D "CTEST_FILE=/Users/wesleyyuan/Documents/Fun With Coding/Learning C++/OrderBook/build/tests_tests-b12d07c.cmake" -P /usr/local/lib/cmake/Catch2/CatchAddTests.cmake
 

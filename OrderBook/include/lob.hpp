@@ -41,7 +41,19 @@ class Order {
     Limit* parentLimit;
 
     public:
-        Order(bool buyOrSell, int shares, int limit);
+        Order(int idNumber, bool buyOrSell, int shares, int limit);
+
+        void setEntryTime(int entryTime);
+        void setEventTime(int eventTime);
+        void setNextOrder(Order* order);
+        void setPrevOrder(Order* order);
+        void setParentLimit(Limit* limit);
+
+        int getEntryTime();
+        int getEventTime();
+        Order* getNextOrder();
+        Order* getPrevOrder();
+        Limit* getParentLimit();
 
         int idNumber;
         bool buyOrSell;
