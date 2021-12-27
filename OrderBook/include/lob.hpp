@@ -70,7 +70,9 @@ class Book {
 
     public:
         Book();
-        void add();
-        void cancel();
+        void add(Order* order);
+        void cancel(Order* order);
+    
+    private:
         void execute();
 };
