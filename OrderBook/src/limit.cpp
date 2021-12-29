@@ -1,11 +1,7 @@
 #pragma once
 #include "lob.hpp"
 
-Limit::Limit(int limitPrice, int size) : totalVolume(0) {
-    // set instance variables
-    this->limitPrice = limitPrice;
-    this->size = size;
-
+Limit::Limit(int limitPrice, int size) : limitPrice(limitPrice), size(size), totalVolume(0) {
     // set pointers to be null for now
     this->parent = nullptr;
     this->leftChild = nullptr;
@@ -34,22 +30,22 @@ void Limit::setTailOrder(Order *order) {
     this->tailOrder = order;
 };
 
-Limit * Limit::getParent() {
+Limit* Limit::getParent() {
     return this->parent;
 };
 
-Limit * Limit::getLeftChild() {
+Limit* Limit::getLeftChild() {
     return this->leftChild;
 };
 
-Limit * Limit::getRightChild() {
+Limit* Limit::getRightChild() {
     return this->rightChild;
 };
 
-Order * Limit::getHeadOrder() {
+Order* Limit::getHeadOrder() {
     return this->headOrder;
 };
 
-Order * Limit::getTailOrder() {
+Order* Limit::getTailOrder() {
     return this->tailOrder;
 };

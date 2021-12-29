@@ -2,13 +2,8 @@
 #include<assert.h>
 #include "lob.hpp"
 
-Order::Order(int idNumber, bool buyOrSell, int shares, int limit) {
-    // set instance variables
-    this->idNumber = idNumber;
-    this->buyOrSell = buyOrSell;
-    this->shares = shares;
-    this->limit = limit;
-
+Order::Order(int idNumber, bool buyOrSell, int shares, int limit) : 
+idNumber(idNumber), buyOrSell(buyOrSell), shares(shares), limit(limit) {
     // set times to -1 and pointers to be null for now
     this->entryTime = -1;
     this->eventTime = -1;

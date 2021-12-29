@@ -1,4 +1,6 @@
 #pragma once
+#include<queue>
+#include<map>
 
 // by default class members are private so don't need to add private
 
@@ -33,6 +35,30 @@ class Limit {
 };
 
 
+class LimitGreater {
+    public:
+        bool operator() (const Limit* thisLimit, const Limit* thatLimit) {
+            return thisLimit->limitPrice > thatLimit->limitPrice;
+        }
+};
+
+class LimitLesser {
+    public:
+        bool operator() (const Limit* thisLimit, const Limit* thatLimit) {
+            return thisLimit->limitPrice < thatLimit->limitPrice;
+        }
+};
+
+// static bool limitGreater(Limit* thisLimit, Limit* thatLimit) {
+//     return thisLimit->limitPrice > thatLimit->limitPrice;
+// };
+
+
+// static bool limitLesser(Limit* thisLimit, Limit* thatLimit) {
+//     return thisLimit->limitPrice < thatLimit->limitPrice;
+// };
+
+
 class Order {
     int entryTime;
     int eventTime;
@@ -56,23 +82,27 @@ class Order {
         Limit* getParentLimit();
 
         int idNumber;
-        bool buyOrSell;
+        bool buyOrSell; // true is buy, false is sell
         int shares;
         int limit;
 };
 
 
 class Book {
-    Limit* buyTree;
-    Limit* sellTree;
-    Limit* lowestSell;
+    std::priority_queue<Limit*, std::vector<Limit*>, LimitLesser> buyHeap; // min-heap of buy orders
+    std::priority_queue<Limit*, std::vector<Limit*>, LimitGreater> sellHeap; // max-heap of sell orders
+    std::map<int, Order*> openOrders;
+    std::map<int, Limit*> availableLimits;
     Limit* highestBuy;
+    Limit* lowestSell;
 
     public:
         Book();
-        void add(Order* order);
-        void cancel(Order* order);
+        void add(Order* order); // can be changed to return success/failure of add
+        void cancel(int idNumber); // can be changed to return success/failure of cancel
     
     private:
-        void execute();
+        // void execute(Order* order);
+        void executeBuy(Order* order);
+        void executeSell(Order* order);
 };

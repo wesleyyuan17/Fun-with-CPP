@@ -1,5 +1,5 @@
 #include "catch2/catch.hpp"
-#include<iostream>
+#include<list>
 #include "lob.hpp"
 
 // Used to test Catch2 itself is working instead of bad linking
@@ -11,7 +11,7 @@
 TEST_CASE("test limit implementation", "[limit]") {
     // initialize limit object
     Limit baseLimit = Limit(0, 1);
-    Limit helperLimit = Limit(0, 1);
+    Limit helperLimit = Limit(1, 1);
     Order helperOrder = Order(1, true, 5, 0);
 
     SECTION("check initialization") {
@@ -42,6 +42,20 @@ TEST_CASE("test limit implementation", "[limit]") {
 
         baseLimit.setTailOrder(&helperOrder);
         REQUIRE(baseLimit.getTailOrder() == &helperOrder);
+    }
+
+    SECTION("check comparator functions on limits") {
+        std::vector<Limit*> limitVector = {&helperLimit, &baseLimit};
+
+        // sort in ascending order
+        std::sort(limitVector.begin(), limitVector.end(), LimitLesser());
+        REQUIRE(limitVector[0] == &baseLimit);
+        REQUIRE(limitVector[1] == &helperLimit);
+
+        // sort in descending order
+        std::sort(limitVector.begin(), limitVector.end(), LimitGreater());
+        REQUIRE(limitVector[0] == &helperLimit);
+        REQUIRE(limitVector[1] == &baseLimit);
     }
 }
 
